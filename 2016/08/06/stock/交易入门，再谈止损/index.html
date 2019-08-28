@@ -17,15 +17,23 @@
   </script>
 
   
-  <title>归档: 2019/8 | Awesame</title>
+  <title>交易入门，再谈止损 | Awesame</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Awesame">
-<meta property="og:url" content="http://yoursite.com/archives/2019/08/index.html">
+  <meta name="description" content="趋势交易的奶爸 [趋势交易的奶爸 ] 止损是交易入门的前提。既然没有100%的概率，那止损就是很正常的事情。 止损不是因为这个股票不能涨了，而是在这个股票上不能再继续亏钱了（保护本金的需要）。 我平时喜欢一个票买六分之一到四分之一仓，然后8%止损。这样做错一次，总资金损失是1-2%，即使连续错5次，90%的本金还在，以后随时只要干到一两个股票就能弥补，从而确保能够立于不败之地。 这就是分仓和止损的">
+<meta name="keywords" content="入门">
+<meta property="og:type" content="article">
+<meta property="og:title" content="交易入门，再谈止损">
+<meta property="og:url" content="http://yoursite.com/2016/08/06/stock/交易入门，再谈止损/index.html">
 <meta property="og:site_name" content="Awesame">
+<meta property="og:description" content="趋势交易的奶爸 [趋势交易的奶爸 ] 止损是交易入门的前提。既然没有100%的概率，那止损就是很正常的事情。 止损不是因为这个股票不能涨了，而是在这个股票上不能再继续亏钱了（保护本金的需要）。 我平时喜欢一个票买六分之一到四分之一仓，然后8%止损。这样做错一次，总资金损失是1-2%，即使连续错5次，90%的本金还在，以后随时只要干到一两个股票就能弥补，从而确保能够立于不败之地。 这就是分仓和止损的">
 <meta property="og:locale" content="zh-CN">
+<meta property="og:image" content="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==">
+<meta property="og:image" content="https://mmbiz.qpic.cn/mmbiz/VyPaD2tFqzoQhZPwJicYt4paGrZr0rGnIkmiabvvS7eropOUwbC0v2lCgyF5DDbZJkoh3srzLR91jZI9Hh31hMNQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1">
+<meta property="og:updated_time" content="2019-08-28T14:11:40.608Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Awesame">
+<meta name="twitter:title" content="交易入门，再谈止损">
+<meta name="twitter:description" content="趋势交易的奶爸 [趋势交易的奶爸 ] 止损是交易入门的前提。既然没有100%的概率，那止损就是很正常的事情。 止损不是因为这个股票不能涨了，而是在这个股票上不能再继续亏钱了（保护本金的需要）。 我平时喜欢一个票买六分之一到四分之一仓，然后8%止损。这样做错一次，总资金损失是1-2%，即使连续错5次，90%的本金还在，以后随时只要干到一两个股票就能弥补，从而确保能够立于不败之地。 这就是分仓和止损的">
+<meta name="twitter:image" content="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==">
   
   
     <link rel="icon" href="/favicon.png">
@@ -102,104 +110,111 @@
 
   <div id="main-wrap" class="position-relative" style="margin-top: 40px;">
       <div class="main-inner-content">
-          <style>
-    .post-hover:hover {
-        box-shadow: inset 0 0 100px #000;
-        transition: box-shadow .2s;
-    }
+          <!--博文页面-->
 
-    .sub-post-container .post-hover:hover h3 {
-        text-decoration: underline gray;
-    }
-
-
-    .primary-item-main {
-        height: 330px;
+<style>
+    .header-box {
+        height: 270px;
+        filter: blur(10px);
         background-size: cover;
+        background-color: lightsteelblue;
     }
 
-    .primary-container .title,
-    .primary-container .sub-title,
-    .primary-container .post-content-text,
-    .primary-container .date {
-        color: #fff;
+    .post-box {
+        padding: 15px;
+        padding-top: 30px;
+        min-height: 80vh;
+        margin-top: -200px;
+        border-radius: 4px;
+        background-color: rgba(255,255,255,.8);
     }
 
-    .post-content-text {
-        color: #f1f1f1!important;
+    .post-avatar {
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
     }
 
-    .primary-container .post-hover {
-        background: black;
+    .flow-chart {
+        text-align: center;
     }
 
-    .content-bg-mask {
-        background: rgba(0,0,0,.4);
+    img[alt="post-cover"] {
+        display: none;
     }
-
 </style>
+<header>
+    <div id="header_box" class="header-box"></div>
+</header>
+<section>
+    <div class="container post-box">
+        <div class="content post-title is-flex center flex-column" style="margin-bottom: 70px; overflow: auto;">
+            <!-- 大标题 -->
+            <h1 class="has-text-centered" style="padding-bottom: 10px; border-bottom: 3px solid #fff">
+                <strong>交易入门，再谈止损</strong>
+            </h1>
+            <!-- 小标题 -->
+            
 
-<div style="background: #f5f8f9;">
-    <div id="main-container" class="container" style="padding-top: 20px;">
-        <div class="is-flex main-content justify-center">
-            <section class="column is-9">
-                
-<div class="primary-container content-box is-flex-desktop clear-padding bottom-line" style="margin-bottom: 25px;">
-    <div class="column  is-12">
-        <a href="/2019/08/28/001hello-world/">
-            <div class="full-height post-hover"
-                 style="
-                         background-image: url('/images/20170402194725_3wAzK.thumb.700_0.jpg');
-                         height: 350px;
-                         background-size: cover;
-                         background-repeat: no-repeat;
-                         ">
-                    <div class=" is-flex flex-column center content has-text-centered full-height has-padding content-bg-mask">
-                        <h1 class="title text-shadow" style="margin-bottom: 15px;">
-                            Hello-World
-                        </h1>
-                        <div>
-                        
-                            
-                        
-                        </div>
-                        <p class="post-content-text is-marginless has-padding text-shadow">
-                            你好
-欢迎来到这个魔幻的世界，😄！
-
-
-
-                        </p>
-                        <p class="date text-shadow">2019-08-28</p>
-                        <button class="button is-info is-small">Read More</button>
-                    </div>
+            <div class="is-flex align-center">
+                <img class="post-avatar" src="https://avatars2.githubusercontent.com/u/11975509?s=400&u=168a05dee85cfbbff62f6e977c73d36d30e8b870&v=4">
+                <span style="padding:0 10px;"> <span class="sub-title">By</span> Alvin Chang</span>
+                <span class="post-date sub-title">at: 2016-08-06</span>
             </div>
-        </a>
-    </div>
-    <div class="column is-5 is-hidden-touch" style="padding-left: 0;">
-        <div class="full-height is-flex flex-column justify-space-between" style="min-height: 350px;">
             
+                <div>
+                    
+                         <a class="tag is-post-tag" href="/tags/入门/">入门</a>
+                    
+                </div>
             
         </div>
-    </div>
-    <div class="column is-12 is-hidden-desktop">
-        
-        
-    </div>
-</div>
+        <div class="content" style="overflow: auto">
+            <p>趋势交易的奶爸 [趋势交易的奶爸 ]</p>
+<p>止损是交易入门的前提。既然没有100%的概率，那止损就是很正常的事情。</p>
+<p>止损不是因为这个股票不能涨了，而是在这个股票上不能再继续亏钱了（保护本金的需要）。</p>
+<p>我平时喜欢一个票买六分之一到四分之一仓，然后8%止损。这样做错一次，总资金损失是1-2%，即使连续错5次，90%的本金还在，以后随时只要干到一两个股票就能弥补，从而确保能够立于不败之地。</p>
+<p>这就是分仓和止损的组合运用带来的效果。</p>
+<p>市场不确定的本性，决定了超高胜率是不存在的，如果你以为通过缜密分析，耐心等待关键点就能做到十拿九稳，那在实战中一定会失望。</p>
+<p>明智的做法是，接受再好的买点也会出错的现实，设好止损，按照既定规则去试错，并且避免孤注一掷。</p>
+<p>把“安全边际”作为一票否决条款。就像谨慎的小偷作案前都会事先踩点想好逃跑的路线一样，当我们看到入市盈利的机会出现时，一定要首先找到它的安全边际在哪里，并且严格按照纪律止损。  </p>
+<p>有个和止损完全相反的做法，下跌加码。这是让人用最快速度把钱亏光的最好办法之一。可能很多次这种方法都能挽救你，但只要一次做错，你将被牢牢套住。</p>
+<p>2008年死得最惨的，不是那种买在顶部的，而是那种越跌越补的。</p>
+<p>既然交易的本质就是试错，那么，认个错有那么难吗？</p>
+<p>买股票你肯定期望它涨的，但是它跌了，已经发出了一个危险信号，说明可能你的期望会落空，我们为什么还要错上加错呢？</p>
+<p>第一次下注没有获利之前，不允许加注。因为如果下注是正确的，你应该会赚钱。</p>
+<p>止损因为逆人性，所以很难执行。大家的心情，我非常理解：</p>
+<p><img src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==" alt="img"><br>但是，当我们买入的股票已经亏了不少钱，再美好的愿望也得服从现实。这时最好的办法，就是尽快把这个股票脱手。</p>
+<p>当我把一个亏损的股票脱手的时候，会全身轻松。因为我知道：再也不会在这个鬼东西上再多亏一分钱了，我安全了！</p>
+<p>止损一定要坚决果断，不然后面下不了手，越陷越深。本来一个很小损失就能解决的事情，会彻底打乱你所有的交易计划。最后你发现，莫名其妙陷入泥潭不能自拔，而且一割就涨。</p>
+<p>华尔街有句股谚：“盈利总会自己照顾自己，而亏损却不会自行了断。”因此，我们必须拿出壮士断腕的决心来做好止损。</p>
+<p>留得青山在，不怕没柴烧，不是吗？</p>
+<p>（点击“阅读原文”可以阅读奶爸长篇连载《地下操盘手》今晚最新篇章更新）</p>
+<p><img src="https://mmbiz.qpic.cn/mmbiz/VyPaD2tFqzoQhZPwJicYt4paGrZr0rGnIkmiabvvS7eropOUwbC0v2lCgyF5DDbZJkoh3srzLR91jZI9Hh31hMNQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1" alt="img"><br>长按图中二维码即可识别关注</p>
 
-                    
-                    
-                
-                <!--翻頁-->
-                <nav class="pagination is-flex" style="justify-content: flex-end">
-                    
-                </nav>
-            </section>
+        </div>
+        <div class="post-reply">
+            
             
         </div>
     </div>
-</div>
+</section>
+<script>
+    // 获取第一张图, 用以当封面背景图
+    var img = document.querySelectorAll('img')[1]
+
+    if (img) {
+        var header_box = document.querySelector('#header_box')
+        header_box.style.backgroundImage = 'url('+ img.src +')'
+    }
+</script>
+
+<!-- for code block highlight --> 
+<!-- theme.block_highlight -->
+<!-- we do not guarantee the char sequences spell right, usr himself do it -->
+<link rel="stylesheet" href="/css/highlight_rainbow.css">
+<script src="/js/highlight.min.js"></script>
+<script type="text/javascript"> hljs.initHighlightingOnLoad();</script>
 
       </div>
   </div>
